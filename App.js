@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import ProfileCard from './src/components/ProfileCard';
+import NameInput from './src/components/NameInput';
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
         bio="Estudiante de programación"
         image="https://via.placeholder.com/150"
       />
+      <NameInput />
     </View>
   );
 }
